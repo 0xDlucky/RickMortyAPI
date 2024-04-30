@@ -16,10 +16,10 @@ let num = ref(0)
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/">Home</router-link>
+            <router-link class="nav-link" aria-current="page" to="/" style="color: #42b983;"><strong>Home</strong></router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/about">About</router-link>
+            <router-link class="nav-link" aria-current="page" to="/about" style="color: #42b983;"><strong>About</strong></router-link>
           </li>
         </ul>
       </div>
@@ -49,3 +49,4 @@ let num = ref(0)
   color: #42b983;
 }
 </style>
+
